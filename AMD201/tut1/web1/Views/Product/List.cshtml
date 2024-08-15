@@ -1,0 +1,25 @@
+﻿@model List<Product>
+
+<div class="container col-md-8 text-center">
+    <table class="table table-bordered ">
+        <tr>
+            <th colspan="3" class="bg-warning">Product List</th>
+        </tr>
+        <tr>
+            <th>Product Name</th>
+            <th>Product Price</th>
+            <th>Product Image</th>
+        </tr>
+        <!-- use foreach loop to display all product item in ProductList -->
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>$@product.Price</td>
+                <td>
+                    <img src="@product.Image" width="100" height="120" />
+                </td>
+            </tr>
+        }
+    </table>
+</div>

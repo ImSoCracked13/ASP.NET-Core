@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xDzJ1nr4ELo=",
+  "success": true,
+  "projectFilePath": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\docker\\docker3\\docker3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GRAM\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
+  ],
+  "logs": []
+}

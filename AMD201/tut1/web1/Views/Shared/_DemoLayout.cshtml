@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Layout</title>
+    <link rel="stylesheet"
+          href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <button class="btn-success">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+        </button>
+        <button class="btn-info">Menu 1</button>
+        <button class="btn-warning">Menu 2</button>
+        <button class="btn-danger">Menu 3</button>
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <div class="container-fluid">
+        <p class="text-danger text-center">This is footer of Demo Layout</p>
+    </div>
+</body>
+</html>

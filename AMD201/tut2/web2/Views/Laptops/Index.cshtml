@@ -1,0 +1,85 @@
+﻿@model IEnumerable<web2.Models.Laptop>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="text-center">
+    <h1 class="text-success bg-warning">Laptop List</h1>
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
+    {
+        <p>
+            <a asp-action="Create" class="btn btn-primary">Create New</a>
+        </p>
+    }
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th colspan="4">
+                <a asp-controller="Laptops" asp-action="SortPriceAsc" 
+                class="btn btn-outline-success">Sort Price Asc</a>
+                <a asp-controller="Laptops" asp-action="SortPriceDesc" 
+                class="btn btn-outline-info">Sort Price Desc</a>
+            </th>
+            <th colspan="3">
+                <form asp-controller="Laptops" asp-action="SearchByName">
+                    <input class="form-control" type="search" placeholder="Enter name to search" required name="keyword" />
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                Color
+            </th>
+            <th>
+                Menu
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Brand)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Model)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price) USD
+                </td>
+                <td>
+                    <img src="@item.Image" width="100" height="100" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Color)
+                </td>
+                <td>
+                    <a class="btn btn-outline-warning" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

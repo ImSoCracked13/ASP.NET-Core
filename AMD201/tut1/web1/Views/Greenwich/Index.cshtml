@@ -1,0 +1,24 @@
+﻿@{
+    //set null layout
+    //Layout = null;
+
+    //set custom layout
+    Layout = "~/Views/Shared/_DemoLayout.cshtml";
+}
+
+<!-- Views/Greenwich/Index.cshtml -->
+<h1>Greenwich Vietnam campuses</h1>
+<ul>
+    <li>
+        <a asp-controller="Greenwich" asp-action="HaNoi">Hà Nội</a>
+    </li>
+    <li>
+        <a asp-controller="Greenwich" asp-action="HCM">HCM City</a>
+    </li>
+    <li>
+        <a asp-controller="Greenwich" asp-action="DaNang">Đà Nẵng</a>
+    </li>
+    <li>
+        <a asp-controller="Greenwich" asp-action="CanTho">Cần Thơ</a>
+    </li>
+</ul>

@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Studies\\Coding\\ASP.NET Core\\AMD201\\microservice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{704AE5EB-5D06-4804-8BBB-F8536D4E69C0}|laptop-service\\laptop-service.csproj|f:\\studies\\coding\\asp.net core\\amd201\\microservice\\laptop-service\\laptop-service.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{704AE5EB-5D06-4804-8BBB-F8536D4E69C0}|laptop-service\\laptop-service.csproj|solutionrelative:laptop-service\\laptop-service.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|f:\\studies\\coding\\asp.net core\\amd201\\microservice\\mobile-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|solutionrelative:mobile-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|f:\\studies\\coding\\asp.net core\\amd201\\microservice\\mobile-service\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|solutionrelative:mobile-service\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|f:\\studies\\coding\\asp.net core\\amd201\\microservice\\mobile-service\\models\\mobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|solutionrelative:mobile-service\\models\\mobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 140,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "laptop-service",
+              "DocumentMoniker": "F:\\Studies\\Coding\\ASP.NET Core\\AMD201\\microservice\\laptop-service\\laptop-service.csproj",
+              "RelativeDocumentMoniker": "laptop-service\\laptop-service.csproj",
+              "ToolTip": "F:\\Studies\\Coding\\ASP.NET Core\\AMD201\\microservice\\laptop-service\\laptop-service.csproj",
+              "RelativeToolTip": "laptop-service\\laptop-service.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T13:54:01.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Studies\\Coding\\ASP.NET Core\\AMD201\\microservice\\mobile-service\\appsettings.json",
+              "RelativeDocumentMoniker": "mobile-service\\appsettings.json",
+              "ToolTip": "F:\\Studies\\Coding\\ASP.NET Core\\AMD201\\microservice\\mobile-service\\appsettings.json",
+              "RelativeToolTip": "mobile-service\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T10:29:38.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MobileController.cs",
+              "DocumentMoniker": "F:\\Studies\\Coding\\ASP.NET Core\\AMD201\\microservice\\mobile-service\\Controllers\\MobileController.cs",
+              "RelativeDocumentMoniker": "mobile-service\\Controllers\\MobileController.cs",
+              "ToolTip": "F:\\Studies\\Coding\\ASP.NET Core\\AMD201\\microservice\\mobile-service\\Controllers\\MobileController.cs",
+              "RelativeToolTip": "mobile-service\\Controllers\\MobileController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAADwvyAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:51:58.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mobile.cs",
+              "DocumentMoniker": "F:\\Studies\\Coding\\ASP.NET Core\\AMD201\\microservice\\mobile-service\\Models\\Mobile.cs",
+              "RelativeDocumentMoniker": "mobile-service\\Models\\Mobile.cs",
+              "ToolTip": "F:\\Studies\\Coding\\ASP.NET Core\\AMD201\\microservice\\mobile-service\\Models\\Mobile.cs",
+              "RelativeToolTip": "mobile-service\\Models\\Mobile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:51:47.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
